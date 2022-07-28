@@ -1,0 +1,28 @@
+ git init ---------> for initi git repository 			
+ git config --global user.name "username"
+ git config --global user.email "e-mail-id"
+ ssh-keygen -C "key name" --------> C for windows
+ git remote add origin <ssh of repo of github>
+       a. origin--> your own account in GitHub (nilammadankar/master)
+       b. any repository that starts with our own account = "Origin" or URL
+git remote -v ------------> for check the ssh is connected or not
+       git remote remove origin --------> REMOVE origin or SSH loging
+git add file1 ------> from working area to staging area
+       git add . (ALL)
+ git reset file1 -------> remove file from staging area
+       git reset . (ALL)
+ git reset --hard --------> remove file from WORKING AREA + STAGING AREA
+      git reset <version id> -------> via reset pasted commit ID >> In git log above all commit ID are 
+remove in history/logs
+ git commit -m "any comment" --------> staging are to local repo
+ git status
+ git push origin master --------> code goes to remote repo in GitHub
+      git push upstream <branch_name> --------->
+  git pull origin master ----------> to pull code from remote repo to working directory
+  git branch ---------------> to list branches
+ git branch <branch_name> ----------> to create branch
+ git checkout <branch_name> --------> switch into another branch
+ git checkout -b "<branch_name>" ----------> to create & switch into that same branch
+     git branch -d <branch_name> (After Merging data will available in both "Master & Branch also" 
+     then we delete branch that's why we use -d)
+    git branch -D <branch_name> (Forcefully delete branch)
